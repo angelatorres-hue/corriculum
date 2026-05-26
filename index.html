@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Profesional - Angela Torres Quispe</title>
+    <style>
+        /* Estilos básicos para organizar la semántica */
+        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 0; color: #333; }
+        header { background-color: #2c3e50; color: white; padding: 20px; text-align: center; }
+        nav { background: #34495e; padding: 10px; text-align: center; position: sticky; top: 0; }
+        nav a { color: white; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        main { display: flex; flex-wrap: wrap; padding: 20px; max-width: 1100px; margin: auto; }
+        section { flex: 2; padding: 10px; }
+        aside { flex: 1; background: #ecf0f1; padding: 20px; border-radius: 8px; height: fit-content; }
+        table { width: 100%; border-collapse: collapse; margin: 15px 0; }
+        th, td { border: 1px solid #bdc3c7; padding: 10px; text-align: left; }
+        th { background-color: #dfe6e9; }
+        footer { background: #2c3e50; color: white; text-align: center; padding: 20px; clear: both; }
+        img { border-radius: 50%; border: 5px solid #fff; width: 150px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; font-weight: bold; }
+        input, select, textarea { width: 100%; padding: 8px; box-sizing: border-box; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Angela Torres Quispe</h1>
+        <p>Desarrolladora Junior en TI | Especialista en Sistemas</p>
+    </header>
+
+    <nav>
+        <a href="#perfil">Objetivo</a>
+        <a href="#educacion">Formación</a>
+        <a href="#habilidades">Habilidades</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+        <a href="https://github.com/tu_usuario" target="_blank">Mi GitHub</a>
+    </nav>
+
+    <main>
+        <section>
+            <article id="perfil">
+                <h2>Objetivo Profesional</h2>
+                <p>Estudiante de TI enfocada en el desarrollo de sistemas eficientes, con gran capacidad de aprendizaje en lenguajes de marcado y maquetación semántica. Busco aplicar mis conocimientos en HTML5 y VS Code para proyectos innovadores.</p>
+            </article>
+
+            <article id="educacion">
+                <h2>Formación Académica</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Nivel</th>
+                            <th>Institución</th>
+                            <th>Estado</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Técnico Superior</td>
+                            <td>IESTP Misioneros Monfortianos</td>
+                            <td>En curso (Ciclo I)</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="3">Certificaciones: HTML5 & CSS3 Fundamentos</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </article>
+
+            <article id="proyectos">
+                <h2>Proyectos Destacados (Laboratorios)</h2>
+                <dl>
+                    <dt><strong>Laboratorio de Matrícula</strong></dt>
+                    <dd>Sistema de gestión de datos para ingreso de estudiantes.</dd>
+                    
+                    <dt><strong>Laboratorio de Telemedicina</strong></dt>
+                    <dd>Interfaz para consultas médicas remotas.</dd>
+                    
+                    <dt><strong>Laboratorio de Catálogo</strong></dt>
+                    <dd>Maquetación de productos con tablas dinámicas.</dd>
+                </dl>
+            </article>
+
+            <article id="contacto">
+                <h2>Contacto</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Formulario de Reclutamiento</legend>
+                        
+                        <div class="form-group">
+                            <label for="nombre">Nombre Completo:</label>
+                            <input type="text" id="nombre" name="nombre" required placeholder="Ej: Angela Torres">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Correo Electrónico:</label>
+                            <input type="email" id="email" name="email" required placeholder="correo@ejemplo.com">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="puesto">Puesto de Interés:</label>
+                            <select id="puesto" name="puesto">
+                                <optgroup label="Desarrollo">
+                                    <option value="web">Desarrollador Web Junior</option>
+                                    <option value="sistemas">Analista de Sistemas</option>
+                                </optgroup>
+                                <optgroup label="Otros">
+                                    <option value="workspace">Especialista Google Workspace</option>
+                                </optgroup>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensaje">Breve Resumen Personal:</label>
+                            <textarea id="mensaje" id="mensaje" rows="4"></textarea>
+                        </div>
+
+                        <button type="submit">Enviar Información</button>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+
+        <aside>
+            <h2>Perfil TI</h2>
+            <center>
+                <img src="media/imagen.png.jpeg" alt="Angela Torres - Foto Profesional">
+            </center>
+            
+            <div id="habilidades">
+                <h3>Habilidades Técnicas</h3>
+                <ul>
+                    <li>HTML5 Semántico</li>
+                    <li>Visual Studio Code</li>
+                    <li>Gestión de GitHub</li>
+                </ul>
+            </div>
+
+            <h3>Idiomas</h3>
+            <p>Inglés Técnico: Intermedio</p>
+
+            <h3>Audio-Resumen Técnico</h3>
+            <audio controls>
+                <source src="media/Qué es HTML_ bien explicado.mp3" type="audio/mpeg">
+                Tu navegador no soporta audio.
+            </audio>
+
+            <h3>Video Presentación</h3>
+            <video width="100%" controls>
+                <source src="media/videoplayback.mp4" type="video/mp4">
+                Tu navegador no soporta video.
+            </video>
+        </aside>
+    </main>
+
+    <footer>
+        <p>Referencias: Docente responsable del ciclo IESTP Misioneros Monfortianos</p>
+        <p>Repositorio del Proyecto: 
+            <a href="https://github.com/angelatorres-hue/corriculum" target="_blank" style="color: #ecf0f1;">Ver en GitHub</a>
+        </p>
+    </footer>
+
+</body>
+</html>
